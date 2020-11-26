@@ -42,6 +42,6 @@ def result():
 
 if __name__ == '__main__':
     model = joblib.load('models/model.pkl')
-    url = "http://localhost:5000"
-    webbrowser.open_new(url)
+    # url = "http://localhost:5000"
+    # webbrowser.open_new(url)
     app.run()
